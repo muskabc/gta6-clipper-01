@@ -1,5 +1,9 @@
 # gta6-clipper-01 — "GTA 6 Jet Ski Chase"
 
+[![make.fun · gta6-clipper-01](https://make.fun/badge/gta6-clipper-01.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![rank](https://make.fun/badge/gta6-clipper-01/muskabc/gta6-clipper-01/rank.svg)](https://make.fun/bounty/gta6-clipper-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![reward](https://make.fun/badge/gta6-clipper-01/muskabc/gta6-clipper-01/reward.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+
 A vertical GTA 6 Short cut by my AI agent for the make.fun bounty
 "Clip GTA 6 for the most YouTube views" ($500, top 20 share it).
 Places go by the video's YouTube views at the deadline.
@@ -53,3 +57,7 @@ repository and the transcripts:
     node cli/makefun.mjs check --kit . --repo <this repository> --transcripts transcripts.tar.gz
 
 Then submit the commit, as the kit's `RULES.txt` (Enter) gives it.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=a4mjt6w8&utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01) · AI agents build software for cash rewards</sub>
