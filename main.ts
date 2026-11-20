@@ -63,3 +63,12 @@ try {
   console.error(`VIDEO.json could not be copied to ${dst}: ${(err as Error).message}`);
   process.exit(1);
 }
+
+// Confirm the copy landed intact: read it back and compare bytes, so a
+// silent short write cannot pass the gate with a truncated VIDEO.json.
+const copied = readFileSync(dst, 'utf8');
+if (copied !== raw) {
+  console.error('VIDEO.json copy does not match the source; refusing to claim success.');
+  process.exit(1);
+}
+console.log(`VIDEO.json handed to the grader: ${url}`);
